@@ -1,10 +1,17 @@
 body{
     background-color: black;
+    
+}
+
+::selection{
+    color: red;
+    background-color: #ACCEF7;
 }
 
 *{
     font-family: "Courier New";
     color: #7fff00;
+    cursor: url("cursors/cursor-auto.cur"), auto;
 }
 
 #main-title{
@@ -31,6 +38,7 @@ strong{
 
 .underlined{
     text-decoration: underline;
+    cursor: url("cursors/cursor.pointer.cur"), auto;
 }
 
 .image{
@@ -53,6 +61,7 @@ button{
     border-color: white;
     padding: 4px 2px;
     transition-duration: 0.4s;
+    cursor: url("cursors/cursor.pointer.cur"), auto;
 }
 
 button:hover{
