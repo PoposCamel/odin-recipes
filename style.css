@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 body{
     background-color: black;
     
@@ -9,7 +12,7 @@ body{
 }
 
 *{
-    font-family: "Courier New";
+    font-family: Silkscreen, VT323, Geo, "Courier New";
     color: #7fff00;
     cursor: url("cursors/cursor-auto.cur"), auto;
 }
